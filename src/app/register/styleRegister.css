@@ -1,0 +1,40 @@
+.section__reg{
+  margin: 5% 20%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(150, 51, 83, 0.5);
+}
+
+h1{
+  margin-bottom: 5%;
+}
+
+.component__form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.component__form input, select {
+  margin-top: 5%;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.form__buttons{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form__btn{
+  margin-top: 5%;
+}
+
+input{
+  color: #000;
+}

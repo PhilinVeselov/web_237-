@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #212020;
+}
+
+.section{
+  padding: 5% 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__text{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content__text h2{
+  font-size: 30px;
+  font-weight: 400;
+  color: rgba(150, 51, 83, 0.5);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content__img{
+  width: 550px;
+  height: 460px;
+}
+
+.section__about{
+  background-color: #19181A;
+}
+
+.about__card{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+  height: 400px;
+  width: 360px;
+  border-radius: 20px;
+  background-color: rgba(150, 51, 83, 0.5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  color: #fff;
+}
+
+.card__icon{
+  color: #fff;
+  font-size: 150px
+}
+
+.section__propose{
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section__propose h1{
+  font-size: 50px;
+  color: #fff;
+}
+
+.form{
+  margin-top: 2%;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: rgba(150, 51, 83, 0.5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+input, textarea, select{
+  margin-top: 2%;
+  padding: 2%;
+  width: 70%;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  font-size: 20px;
+  color: #000;
+}
+
+button{
+  margin-top: 2%;
+  padding: 2%;
+  background-color: rgba(49, 56, 83, 0.8);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  width: 40%;
+}
+
+button:hover {
+  background-color: rgba(38, 44, 65, 0.8);
+}
